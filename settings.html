@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Bookmark Locker</title>
+    <link rel="stylesheet" href="css/settings.css">
+    <script type="module" src="settings.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Settings</h1>
+        <div id="storageOptions">
+            <p>Choose your storage option:</p>
+            <button class="btn" id="local">Local</button>
+            <button class="btn" id="cloud">Cloud</button>
+        </div>
+
+        <div id="cloudForm" style="display: none;">
+            <input type="email" id="cloudEmail" placeholder="Enter Email">
+            <input type="password" id="cloudPassword" placeholder="Enter Password">
+            <button class="btn" id="submitCloud">Submit</button>
+        </div>
+
+        <!-- Hidden password form for setting password -->
+        <div id="passwordForm" style="display: none;">
+            <input type="password" id="password" placeholder="Enter Password">
+            <input type="password" id="confirmPassword" placeholder="Re-enter Password">
+            <button class="btn" id="submitPassword">Submit</button>
+        </div>
+
+        <!-- Hidden password entry box for accessing the home page -->
+        <div id="passwordEntry" style="display: none;">
+            <input type="password" id="enterPassword" placeholder="Enter Password to Continue">
+            <button class="btn" id="enterHome">Enter</button>
+        </div>
+
+        
+    </div>
+
+    <script type="module" src="settings.js"></script>
+</body>
+</html>

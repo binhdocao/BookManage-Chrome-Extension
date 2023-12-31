@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    margin-top: -100px; /* Adjust this value as needed for vertical positioning */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px; /* Space below the h1 */
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px 0; /* Space out buttons */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make button expand to container width */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#passwordForm {
+    margin-top: 20px;
+}
+
+input[type="password"], input[type="email"] {
+    padding: 10px;
+    margin: 5px 0 15px; /* Add space below the input fields */
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin: 0 5px 15px; /* Space below the radio buttons */
+}
+
+label {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+#loginOptions {
+    margin-bottom: 15px; /* Space below the login options */
+}
+
+#emailField {
+    margin: 10px 0;
+}

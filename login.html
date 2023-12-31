@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - BookManager</title>
+    <link rel="stylesheet" href="css/lodsgin.css"> <!-- Update the href with the correct path -->
+</head>
+<body>
+    <h1>Login</h1>
+    <input type="radio" id="localLogin" name="loginMethod" value="local" checked>
+    <label for="localLogin">Local Login</label>
+    
+    <input type="radio" id="cloudLogin" name="loginMethod" value="cloud">
+    <label for="cloudLogin">Cloud Login</label>
+
+    <!-- Add the email input field, initially hidden -->
+    <div id="emailField" style="display: none;">
+        <input type="email" id="email" placeholder="Enter Email">
+    </div>
+    
+    <input type="password" id="password" placeholder="Enter Password">
+    <button id="loginButton">Login</button>
+    <script src="login.js" type="module"></script>
+</body>
+</html>
+
+
+
