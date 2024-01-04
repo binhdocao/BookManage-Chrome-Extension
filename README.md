@@ -25,12 +25,12 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/binhdocao//BookManage-Chrome-Extension"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/binhdocao//BookManage-Chrome-Extension/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/binhdocao//BookManage-Chrome-Extension/issues">Request Feature</a>
   </p>
 </div>
 
